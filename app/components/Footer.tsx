@@ -24,7 +24,11 @@ const Footer: React.FC<Props> = ({ isDarkMode }) => {
         <p className="leading-none">© 2026 Aweb Barouni. All right reserved.</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li className="flex items-center justify-center gap-1">
-            <Image src={isDarkMode ? assets.githubDark : assets.github} alt="" className="w-6" />
+            <Image
+              src={isDarkMode ? assets.githubDark : assets.github}
+              alt=""
+              className="w-6"
+            />
             <a target="_blank" href="https://github.com/AwebBarouni">
               Github
             </a>

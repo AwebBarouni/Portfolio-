@@ -1,6 +1,6 @@
-'use client'
+"use client";
 
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 type ErrorPageProps = {
   error: Error & { digest?: string };
@@ -17,7 +17,8 @@ export default function Error({ error, reset }: ErrorPageProps) {
       <div className="max-w-lg">
         <h2 className="text-3xl font-Ovo mb-4">Something went wrong</h2>
         <p className="mb-6 text-gray-600 dark:text-white/70">
-          The page could not render right now. You can try again or reload the site.
+          The page could not render right now. You can try again or reload the
+          site.
         </p>
         <button
           onClick={() => reset()}

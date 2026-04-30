@@ -3,16 +3,19 @@ import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
 
 const outfit = Outfit({
-  subsets: ["latin"], weight: ["400","500","600","700"]
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
 const ovo = Ovo({
-  subsets: ["latin"], weight: ["400"]
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
   title: "Aweb Barouni | Portfolio",
-  description: "Aweb Barouni - software engineer focused on frontend, backend, and full-stack projects.",
+  description:
+    "Aweb Barouni - software engineer focused on frontend, backend, and full-stack projects.",
   keywords: [
     "Aweb Barouni",
     "Software Engineer",
