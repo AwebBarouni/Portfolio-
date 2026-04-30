@@ -67,7 +67,9 @@ export const assets = {
     arrowIconDark,
     menuWhite,
     closeWhite,
-    mailIconDark
+    mailIconDark,
+    instagram: '/instagram.svg',
+    instagramDark: '/instagram-dark.svg'
 }
 export const infoList = [
     {
@@ -133,27 +135,27 @@ export const serviceData = [
 
 export const workData = [
     {
-        title : 'Investors Platform',
-        description : 'Web app',
+        title : 'Supervision Livraisons',
+        description : 'Logistics platform',
         bgImage : '/work-1.png',
-        link : 'https://github.com/AwebBarouni/Angular',
+        link : 'https://github.com/AwebBarouni/supervision-livraisons.git',
     },
     {
-        title : 'Staff management',
-        description : 'Mobile app',
+        title : 'Gestion Voiture Location Java',
+        description : 'Java rental management',
         bgImage : '/work-2.png',
-        link : 'https://github.com/AwebBarouni/SNS_mobileApp',
+        link : 'https://github.com/TalelMejri/GestionVoitureLocationJava.git',
     },
     {
-        title : 'Ticket management',
-        description : 'backend system',
+        title : 'Graylog',
+        description : 'Monitoring stack',
         bgImage : '/work-3.png',
-        link : 'https://github.com/AwebBarouni/Ticket-Management-ExpressJs',
+        link : 'https://github.com/AwebBarouni/graylog.git',
     },
     {
-        title : 'E-Learning Platform',
-        description : 'Fullstack app',
+        title : 'Top Deal',
+        description : 'E-commerce platform',
         bgImage : '/work-4.png',
-        link : 'https://github.com/AwebBarouni/E-Learning-Platforme-SpringBoot',
+        link : 'https://github.com/Hazem-Barkallah/Top-Deal.git',
     },
 ]

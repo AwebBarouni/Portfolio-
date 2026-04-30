@@ -11,8 +11,8 @@ const ovo = Ovo({
 });
 
 export const metadata: Metadata = {
-  title: "Aweb Barouni | Software Engineer Portfolio",
-  description: "Aweb Barouni - Software Engineer specialized in frontend and backend development. Explore my portfolio and projects.",
+  title: "Aweb Barouni | Portfolio",
+  description: "Aweb Barouni - software engineer focused on frontend, backend, and full-stack projects.",
   keywords: [
     "Aweb Barouni",
     "Software Engineer",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   authors: [{ name: "Aweb Barouni" }],
   creator: "Aweb Barouni",
   openGraph: {
-    title: "Aweb Barouni | Software Engineer Portfolio",
+    title: "Aweb Barouni | Portfolio",
     description:
-      "Aweb Barouni - Software Engineer specialized in frontend and backend development. Explore my portfolio and projects.",
+      "Aweb Barouni - software engineer focused on frontend, backend, and full-stack projects.",
     url: "https://awebbarouni.vercel.app",
     siteName: "Aweb Barouni",
   },
